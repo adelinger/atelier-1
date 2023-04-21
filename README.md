@@ -1,1 +1,1 @@
-demo: https://atelierds.vercel.app/
+app demo: https://atelierds.vercel.app/
