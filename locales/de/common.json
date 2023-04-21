@@ -1,0 +1,22 @@
+{
+  "send_inquiry": "Senden Sie eine Anfrage",
+  "interior": "Innenraum",
+  "bodywork": "Karosserie",
+  "chrome": "Chrom",
+  "first_name": "Vorname",
+  "last_name": "Nachname",
+  "email": "Email",
+  "message": "Mitteilung",
+  "send_email": "E-Mail senden",
+  "email_alert_success": "Ihre E-Mail wurde gesendet. Wir werden uns so schnell wie möglich bei Ihnen melden.",
+  "email_alert_error": "Etwas ist schief gelaufen. Bitte versuche es erneut.",
+  "email_form_title": "Kontaktieren Sie uns für weitere Informationen",
+  "message_type":"Geben Sie eine Nachricht ein...",
+  "homepage":"Home",
+  "cars_for_sale":"Autos zu verkaufen",
+  "leather_navbar":"Leder",
+  "chrome_parts":"Chromteile",
+  "body_restoration":"Wiederherstellung des Körpers",
+  "contact":"Kontakt",
+  "price_on_enquiry":"Preis auf Anfrage"
+}

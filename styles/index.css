@@ -1,0 +1,168 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+@layer components {
+     /* custom css classes example. Here we write custom css classes */
+     .btn-primary-indigo {
+      @apply inline-flex text-white bg-indigo-500 border-0 py-1 px-3 focus:outline-none hover:bg-indigo-600 rounded text-lg shadow-lg
+    }
+    .btn-primary-gray {
+      @apply inline-flex text-gray-500 bg-white border-0 py-1 px-3 focus:outline-none hover:bg-neutral-100 rounded text-lg shadow-lg
+    }
+
+    .btn-primary-indigo-slim {
+      @apply text-white bg-indigo-700 hover:bg-indigo-800 focus:ring-4 focus:outline-none focus:ring-indigo-300 shadow-lg
+      font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:bg-indigo-600 dark:hover:bg-indigo-700 dark:focus:ring-indigo-800
+    }
+
+    .btn-primary-gray-big {
+      @apply text-white bg-gray-700  hover:bg-gray-800 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-base px-6 py-3.5 text-center dark:bg-gray-600 dark:hover:bg-gray-700 dark:focus:ring-gray-800 shadow-lg
+    }
+    .btn-primary-indigo-big {
+      @apply text-white bg-indigo-700  hover:bg-indigo-800 focus:ring-4 focus:outline-none focus:ring-indigo-300 font-medium rounded-lg text-base px-6 py-3.5 text-center dark:bg-indigo-600 dark:hover:bg-indigo-700 dark:focus:ring-indigo-800 shadow-lg
+    }
+    .min-w-15 {
+      min-width: 15rem;
+    }
+    .iframe-container {
+      -webkit-filter: blur(3px);
+      filter: blur(3px);
+    }
+    .min-h-30 {
+      min-height:30rem;
+    }
+
+    .red-btn {
+     background-color:#FF0000;
+    }
+
+    .max-height-450{
+      max-height: 450px;
+    }
+
+    .mobile-width{
+      width:22rem;
+    }
+    .images-width{
+      width:38rem;
+    }
+    .min-h-screen {
+      min-height: 100vh;
+    }
+    .py-40 {
+      padding-top: 10rem;
+      padding-bottom: 10rem;
+    }
+    .center-image {
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .position-center {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    }
+  }
+
+  .carousel .thumb {
+    border-color: #808080 !important
+  }
+  
+
+   .carousel .selected{
+    border-color: #FFFFFF!important;
+}
+
+
+
+.arrow span {
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-bottom: 5px solid rgba(11, 11, 11, 0.66);
+    border-left: 5px solid rgba(11, 11, 11, 0.66);
+    transform: rotate(135deg);
+    cursor: pointer;
+    animation-name: example;
+    animation: pulse 1.3s infinite;
+    position: relative;
+    animation-name: example;
+    animation-fill-mode: forwards;
+}
+
+.arrow_left span {
+  display: block;
+  width: 30px;
+  height: 30px;
+  border-bottom: 5px solid rgba(11, 11, 11, 0.66);
+  border-left: 5px solid rgba(11, 11, 11, 0.66);
+ 
+  cursor: pointer;
+  animation: pulse 1.3s infinite;
+  position: relative;
+  animation-name: example;
+  animation-fill-mode: forwards;
+}
+
+.arrow_right span {
+  display: block;
+  width: 30px;
+  height: 30px;
+  border-bottom: 5px solid rgba(11, 11, 11, 0.66);
+  border-left: 5px solid rgba(11, 11, 11, 0.66);
+ 
+  cursor: pointer;
+  animation: pulse 1.3s infinite;
+  position: relative;
+  animation-name: example;
+  animation-fill-mode: forwards;
+}
+
+.arrow_left_gallery span {
+  display: block;
+  width: 30px;
+  height: 30px;
+  border-bottom: 5px solid rgba(255, 255, 255, 0.957);
+  border-left: 5px solid rgba(255, 255, 255, 0.957);
+ 
+  cursor: pointer;
+  animation: pulse 1.3s infinite;
+  position: relative;
+  animation-name: example;
+  animation-fill-mode: forwards;
+}
+
+.arrow_right_gallery span {
+  display: block;
+  width: 30px;
+  height: 30px;
+  border-bottom: 5px solid rgba(255, 255, 255, 0.957);
+  border-left: 5px solid rgba(255, 255, 255, 0.957);
+ 
+  cursor: pointer;
+  animation: pulse 1.3s infinite;
+  position: relative;
+  animation-name: example;
+  animation-fill-mode: forwards;
+}
+
+
+@keyframes example {
+  0% {
+      opacity: 0;
+      transform: rotate(135deg) translate(-0px, -0px);
+  }
+
+  50% {
+      opacity: 1;
+  }
+
+  100% {
+      opacity: 0;
+      transform: rotate(135deg) translate(0px, 0px);
+  }
+}
